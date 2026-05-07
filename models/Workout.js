@@ -5,6 +5,7 @@ const workoutSchema = new mongoose.Schema({
   type: String,
   duration: Number,
   calories: Number,
+  distance: {type: String},
   date: { type: Date, default: Date.now }
 });
 
